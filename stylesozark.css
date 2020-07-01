@@ -1,0 +1,246 @@
+/* style.css */
+
+    /* Base commune aux deux pages */
+
+body{
+	background: white;
+	color: black; 
+	font-size: 13px;
+	font-family: 'Rajdhani', sans-serif;
+	margin:0px;
+	padding: 0px;
+}
+
+h1{
+	font-family: 'Rajdhani', sans-serif;
+ 	color:  black; 
+ 	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+h2{
+	font-family: 'Rajdhani', sans-serif;
+ 	color: darkgrey; 
+ 	font-weight: bolder;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+header{
+	height: 100px;
+}
+
+main{
+	margin: 20px;
+}
+
+footer{
+	background: #24808D;
+	color: white;
+	border-top: solid;
+	border-top-width: 2px;
+	border-top-color: grey;	
+	padding-top: 30px;
+	text-align: center;
+	height: 80px;
+}
+
+nav li{
+	float: left;
+	list-style-type: none;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	background: #24808D;	
+	width: 100%;
+	}
+
+nav a{
+	padding: 20px 30px;
+}
+
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	top: 2px;
+}
+
+p{
+	font-family: 'Rajdhani'
+	font-size: 15px;
+}
+
+li{
+	font-family: 'Rajdhani'
+	font-size: 15px;
+}
+
+.menu{
+	display: table;
+	margin: 0 auto;
+}
+
+#logo{
+	position: absolute;
+	float: left;
+	top: 10px;
+	left: 10px;
+}
+
+.texteenbeige{
+	color:#e2a854;
+}
+
+    /* Page Bande-Annonce */
+
+#bandeannonce{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.container{
+	margin: 0px 10%;
+}
+
+.left{
+	float: left;
+	width: 50%;
+}
+
+.right{
+	float: left;
+	width: 50%;
+}
+
+    /* Page Casting */
+
+h4{
+	font-family: 'Rajdhani', sans-serif;
+ 	color: black; 
+ 	font-weight: bolder;
+	font-size: 20px;
+	text-align: left;
+	padding: 0px 0px 0px 132px;
+}
+
+h3{
+	font-family: 'Rajdhani', sans-serif;
+ 	color: #e2a854; 
+ 	font-weight: bolder;
+	font-size: 15px;
+	text-align: center;
+	margin:2px;
+}
+
+h5{
+	font-family: 'Rajdhani', sans-serif;
+ 	color: grey; 
+	font-size: 13px;
+	font-weight: normal;
+	text-align: center;
+	margin: 5px;
+}
+
+.feature {
+  border:1px solid white;
+  padding: 0px 5px 10px 5px;
+  text-align: center;
+  width: 215px;
+  background: white;
+}
+
+ #grille {
+  margin: 0 auto;
+  padding: 0px 0px 0px 120px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+    /* Règles CSS pour les mobiles */
+
+@media screen and (max-width: 1200px)
+{
+	header{
+		height: 75px;
+		width: auto;
+	}
+
+	h1{
+		font-size: 25px;
+		text-align: center;
+		padding: 10px 0px 30px 0px;
+	}
+
+	h2{
+		font-size: 35px;
+	}
+
+	nav a{
+		padding: 10px 10px;
+	}
+
+	a{
+		font-size: 20px;
+	}
+
+	#logo{
+		position: absolute;
+		float: left;
+		top: 10px;
+		left: 10px;
+	}
+
+	.left{
+		width: 100%;
+		position: center;
+	}
+
+	.right{
+		width: 100%;
+		position: center;
+	}
+
+	p{
+		font-size: 18px;
+	}
+
+	li{
+		font-size: 18px;
+	}
+
+	h4{
+		font-size: 25px; 
+		text-align: center;
+		padding: 0px 0px 0px 0px;
+	}
+
+	h3{
+		font-size: 19px; 
+	}
+
+	h5{
+		font-size: 16px;
+	}
+
+	#grille {
+  		padding: 0px 0px 0px 0px;
+  		justify-content: center;
+	}
+}
